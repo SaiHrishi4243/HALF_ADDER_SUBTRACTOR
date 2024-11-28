@@ -56,6 +56,18 @@ Figure -02 HALF Subtractor
 
 Developed by: Sai Hrishi M   RegisterNumber: 24900846 */
 
+```
+module half(a,b,c,d,e,f,g);
+input a,b;
+output c,d,e,f,g;
+assign c=a^b;
+assign d=a&b;
+assign e=a^b;
+assign f=~a;
+assign g=f|b;
+endmodule
+```
+
 **RTL Schematic**
 
 ![RTL TIME (2)](https://github.com/user-attachments/assets/b3704563-570e-45d6-abea-5fe90c7f82f7)
